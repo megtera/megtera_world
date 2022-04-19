@@ -43,6 +43,11 @@ gem 'time_date_helpers', '0.0.4'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'cancancan', '3.1.0'   # '3.1.0'
+articles
+
+gem 'nokogiri'
+gem 'vuejs-rails'
+articles
 
 # View gems
 gem 'will_paginate'
@@ -77,8 +82,13 @@ group :development do
   gem 'web-console', '3.7.0'
   gem 'listen', '3.1.5'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+articles
   gem 'spring', '2.1.1'
   gem 'spring-watcher-listen', '2.0.1'
+
+  gem 'spring'
+  gem 'spring-watcher-listen'
+articles
 end
 
 group :test do
